@@ -4,7 +4,7 @@
   "description": "",
   "main": "wdio.conf.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "author": "Eta",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "chromedriver": "^94.0.0",
     "wdio-chromedriver-service": "^7.2.2",
     "wdio-cucumber-reporter": "0.0.2"
+  },
+  "dependencies": {
+    "@wdio/sync": "^7.14.1"
   }
 }

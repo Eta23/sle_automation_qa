@@ -1,12 +1,12 @@
 exports.config = {
-    //
+    //https://github.com/webdriverio/cucumber-boilerplate/tree/main/test/support/action
     // ====================
     // Runner Configuration
     // ====================
     //
     //
     // ==================
-    // Specify Test Files
+    runner : 'local',
     // ==================
     // Define which test specs should run. The pattern is relative to the directory
     // from which `wdio` was called.
@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './features/**/*.feature'
+        './features/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -139,7 +139,7 @@ exports.config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/steps.js'],
+        require: ['./stepdefinitions/*.js'],
         // <boolean> show full backtrace for errors
         backtrace: false,
         // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
