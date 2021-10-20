@@ -1,6 +1,5 @@
-const Page = require('./support/pageobjects/login.page.js');
 
-class LoginPage extends Page {
+class LoginPage {
     
     get inputUsername () { return $("//input[@name = 'email']") }
     get inputPassword () { return $("//input[@name='password']") }
