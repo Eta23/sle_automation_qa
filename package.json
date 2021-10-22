@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
-  "author": "Eta",
+  "author": "Eta23",
   "license": "ISC",
   "devDependencies": {
     "@wdio/cli": "^7.14.1",

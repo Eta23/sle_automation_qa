@@ -12,7 +12,12 @@ class LoginPage {
 
     clickOnLoginButton(){
         this.btnSubmit.click()
-}
+    }
+
+    navigateToLogin() {
+        browser.url('/')
+    }
+
 }
 
 module.exports = new LoginPage();
