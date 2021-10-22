@@ -3,6 +3,7 @@ const { Given, When, Then } = require('cucumber');
 const LoginPage = require('../support/pages/login_page');
 
 
+
 Given(/^User is on Landing page and navigate to Login page$/, function(){
     LoginPage.navigateToLogin()
 });

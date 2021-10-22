@@ -14,6 +14,7 @@ class LandingPage {
     get healthExperts_linkedText() { return $("//a [@href='https://dev3.sacret-life.com/explainer-health-experts/']") }
     get coaches_linkedText() { return $("//a [@href='https://dev3.sacret-life.com/explainer-coaches/']") }
    
+    
 
     openMainDropDown(){
         this.main_dropDown.click()
