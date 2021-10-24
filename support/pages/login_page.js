@@ -15,10 +15,9 @@ class LoginPage {
     }
 
     navigateToLogin() {
-        browser.url('')
+        browser.url('https://dev3-identity.sacret-life.com/identity/v1/login')
     }
 
 }
-
 
 module.exports = new LoginPage();
