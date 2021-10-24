@@ -1,5 +1,9 @@
 const { Given, When, Then } = require('cucumber');
 
+const HomePage = require('../support/pages/home_page');
+import assert from 'assert';
+//var assert = require('assert');
+
 const LoginPage = require('../support/pages/login_page');
 
 
@@ -15,8 +19,10 @@ When(/^User click on Login button$/, function(){
     LoginPage.clickOnLoginButton()
 });
 
-Then(/^User is successifully logged into Login page$/, function(){
+Then(/^User is successifully logged into Home page$/, function(){
     var strUrl = browser.getUrl();
-    console.log("URL is : "=strUrl);
+    console.log("URL is : " + strUrl);
+// expected, actual
+    assert.equal(strUrl, "https");
 });
 

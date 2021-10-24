@@ -15,9 +15,10 @@ class LoginPage {
     }
 
     navigateToLogin() {
-        browser.url('/')
+        browser.url('')
     }
 
 }
+
 
 module.exports = new LoginPage();

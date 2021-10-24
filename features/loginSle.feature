@@ -7,4 +7,4 @@ Feature: Login  to  SLE account
     Scenario: Successifully login into SLE
         When User fill both field with valid data on Login page
         When User click on Login button 
-        Then User is successifully logged into Login page 
+        Then User is successifully logged into Home page 
