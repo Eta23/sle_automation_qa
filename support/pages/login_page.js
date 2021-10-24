@@ -15,7 +15,7 @@ class LoginPage {
     }
 
     navigateToLogin() {
-        browser.url('/')
+        browser.url('')
     }
 
 }
