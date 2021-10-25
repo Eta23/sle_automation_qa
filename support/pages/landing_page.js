@@ -5,7 +5,7 @@ class LandingPage {
     get logoImg_slePage() { return $() }
     get searchProduct_field() { return $("//input[ @id = 'search']") }
     get cart_icon() { return $("//a[ @class = 'action showcart']") }
-    get logIn_button() { return $("") }
+    get logIn_button() { return $("(//li/a[contains(@href, 'login')])[2]") }
     get signUp_button() { return $("//a[@class ='creator']") }
     get getStarted_button() { return $("//input[@class ='get-started']") }
     get entrepreneurs_linkedText() {return $(".//a[contains(@href, 'explainer-entrepreneurs')]")}
