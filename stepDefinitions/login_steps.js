@@ -1,8 +1,7 @@
-const { Given, When, Then } = require('cucumber');
+const { Given, When, Then } = require('@cucumber/cucumber');
 
 const HomePage = require('../support/pages/home_page');
-import assert from 'assert';
-//var assert = require('assert');
+var assert = require('assert');
 
 const LoginPage = require('../support/pages/login_page');
 
