@@ -1,8 +1,10 @@
 
+
+
 class LandingPage {
     
     get main_dropDown() { return $("//span[@class = 'action nav-toggle']") }
-    get logoImg_slePage() { return $() }
+    get logoImg_slePage() { return $("//div/a/img[contains(@src, 'sl3-logo')]") }
     get searchProduct_field() { return $("//input[ @id = 'search']") }
     get cart_icon() { return $("//a[ @class = 'action showcart']") }
     get logIn_button() { return $("(//li/a[contains(@href, 'login')])[2]") }
