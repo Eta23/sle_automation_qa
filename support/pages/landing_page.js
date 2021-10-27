@@ -17,6 +17,9 @@ class LandingPage {
     get coaches_linkedText() { return $(".//a[contains(@href, 'explainer-coaches')]") }
    
     
+    onLandingPage(){
+        browser.url('https://dev3.sacret-life.com/')
+    }
 
     openShoppingCart(){
         this.cart_icon.click()
