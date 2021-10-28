@@ -8,7 +8,7 @@ Given(/^User is on SLE Landing page$/, function(){
 });
 
 When(/^User type word to search products in “Search product” bar at the top of the SLE Landing page$/, function(){
-    ProductPage.fillSerchProductField()
+    LandingPage.fillSearchProductField()
 });
 
 When(/^User press Enter button on keyboard$/, function(){
