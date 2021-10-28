@@ -9,9 +9,6 @@ class ProductPage {
 
 
 
-    fillSerchProductField(){
-        landing_page.searchProduct_field.setValue('event')
-    }
 
     pressEnterButton(){
        browser.keys("\uE007")

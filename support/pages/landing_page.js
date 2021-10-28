@@ -1,6 +1,5 @@
 
 
-
 class LandingPage {
     
     get main_dropDown() { return $("//span[@class = 'action nav-toggle']") }
@@ -42,7 +41,7 @@ class LandingPage {
     }
 
     fillSearchProductField(){
-        this.searchProduct_field.setValue('')
+        this.searchProduct_field.setValue('event')
     }
 
 
